@@ -1,0 +1,13 @@
+button{
+    width: 150px;
+    height: 60px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight:500 ;
+    margin-top: 20px;
+    /* background-color: #40cad7; */
+    background-image: linear-gradient(360deg, #40cad7, #c3e4e7);
+
+}

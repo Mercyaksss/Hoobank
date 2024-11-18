@@ -1,0 +1,20 @@
+/* .ellipse-4{
+    position: relative;
+    top: 10%;
+    left: -10%;
+
+} */
+/* .ellipse-11{
+    position: relative;
+    top: 0;
+    left: 40%;
+} */
+.App{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 1024px) {
+    .ellipse1 {
+        display: none;
+    }
+}

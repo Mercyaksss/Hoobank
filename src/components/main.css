@@ -1,0 +1,37 @@
+.main {
+    position: relative;
+    width: 90%;
+    min-height: 100vh;
+    margin: auto;
+    /* background-color: blue; */
+}
+
+/* Medium screens (tablets, 768px and up) */
+@media (max-width: 1024px) {
+    .main {
+        width: 100%;
+        margin: 0;
+    }
+    /* Additional styles for medium screens */
+    .hero, .section2, .section3, .section4, .section5, .section6, .footer {
+        padding: 20px;
+    }
+}
+
+/* Small screens (mobile devices, 767px and down) */
+@media (max-width: 767px) {
+    .main {
+        width: 100%;
+        padding: 0 10px;
+    }
+    /* Additional styles for small screens */
+    .hero, .section2, .section3, .section4, .section5, .section6, .footer {
+        padding: 15px;
+    }
+    .hero h1, .section2 h2, .section3 h2, .section4 h2, .section5 h2, .section6 h2 {
+        font-size: 1.5rem;
+    }
+    .hero p, .section2 p, .section3 p, .section4 p, .section5 p, .section6 p {
+        font-size: 1rem;
+    }
+}

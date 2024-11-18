@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './app.css'
+import ellipse1 from './assets/ellipse1.png'
+import ellipse11 from './assets/ellipse11.png'
 
+
+import Main from './components/main';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img  src={ellipse1} className='ellipse1'/>
+      {/* <img src={ellipse4} className='ellipse-4'/> */}
+      {/* <img src={ellipse11} className='ellipse-11'/> */}
+
+      <Main/>
     </div>
   );
 }
